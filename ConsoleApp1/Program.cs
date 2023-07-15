@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    public class Car
     {
+        public string model;
+        public Car()
+        {
+            model = "XUV 700";
+        }
         static void Main(string[] args)
         {
-
-            Guid guid = Guid.NewGuid();`
+            Car Mahindra = new Car();
+            Console.WriteLine(Mahindra.model);
         }
     }
 }
