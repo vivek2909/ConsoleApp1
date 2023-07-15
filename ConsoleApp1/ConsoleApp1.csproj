@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Constructor.Car</StartupObject>
+    <StartupObject>Method_Overloading.Method_Overloading</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Method_Overloading.cs" />
     <Compile Include="Constructor_Overloading.cs" />
     <Compile Include="Constructor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
