@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Constructor_Overloading.Car</StartupObject>
+    <StartupObject>Constructor.Car</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
