@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lambda</StartupObject>
+    <StartupObject>Diamond.Diamond</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Diamond.cs" />
     <Compile Include="Lambda.cs" />
     <Compile Include="Lists.cs" />
     <Compile Include="Stack.cs" />
