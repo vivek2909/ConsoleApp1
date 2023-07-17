@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StopWatch.Program</StartupObject>
+    <StartupObject>String_Builder.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="String_Builder.cs" />
     <Compile Include="Stopwatch.cs" />
     <Compile Include="Method_Overloading.cs" />
     <Compile Include="Constructor_Overloading.cs" />
