@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Stack.cs" />
     <Compile Include="String_Builder.cs" />
     <Compile Include="Stopwatch.cs" />
     <Compile Include="Method_Overloading.cs" />
