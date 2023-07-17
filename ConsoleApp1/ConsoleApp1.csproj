@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Diamond.Diamond</StartupObject>
+    <StartupObject>StringInterpolation.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="String_Interpolation.cs" />
     <Compile Include="Diamond.cs" />
     <Compile Include="Lambda.cs" />
     <Compile Include="Lists.cs" />
