@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Tables</StartupObject>
+    <StartupObject>ConsoleApp1.Average</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Addition.cs" />
     <Compile Include="Arithmetic_Operations.cs" />
+    <Compile Include="Average.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="IEnumerable.cs" />
