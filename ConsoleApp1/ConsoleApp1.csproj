@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Hello</StartupObject>
+    <StartupObject>ConsoleApp1.Addition</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Addition.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="IEnumerable.cs" />
     <Compile Include="String.cs" />
