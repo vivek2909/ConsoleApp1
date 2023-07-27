@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Swap</StartupObject>
+    <StartupObject>ConsoleApp1.Multiplication</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Division.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="IEnumerable.cs" />
+    <Compile Include="Multiplication.cs" />
     <Compile Include="String.cs" />
     <Compile Include="String_Interpolation.cs" />
     <Compile Include="Diamond.cs" />
