@@ -1,19 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1
+public class Arithmetic_Operations
 {
-    public class Arithmetic_Operations
+    public static void Main()
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine(-1 + 4 * 6);
-            Console.WriteLine((35 + 5) % 7);
-            Console.WriteLine(14 + -4 * 6 / 11);
-            Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);
-        }
+        Console.Write("Enter a number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter another number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("{0} + {1} = {2}", num1, num2, num1 + num2);
+        Console.WriteLine("{0} - {1} = {2}", num1, num2, num1 - num2);
+        Console.WriteLine("{0} x {1} = {2}", num1, num2, num1 * num2);
+        Console.WriteLine("{0} / {1} = {2}", num1, num2, num1 / num2);
+        Console.WriteLine("{0} mod {1} = {2}", num1, num2, num1 % num2);
     }
 }
