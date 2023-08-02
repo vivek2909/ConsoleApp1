@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.PolyMorphism</StartupObject>
+    <StartupObject>ConsoleApp1.Employee_Details</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,15 +49,13 @@
     <Compile Include="Addition.cs" />
     <Compile Include="Arithmetic_Operations.cs" />
     <Compile Include="Average.cs" />
-    <Compile Include="Car.cs" />
     <Compile Include="Division.cs" />
+    <Compile Include="Employee_Details.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="IEnumerable.cs" />
-    <Compile Include="if_else.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="PolyMorphism.cs" />
-    <Compile Include="Vehicle.cs" />
     <Compile Include="Multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="String.cs" />
