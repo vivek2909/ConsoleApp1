@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Array</StartupObject>
+    <StartupObject>ConsoleApp1.Reverse_int</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="PolyMorphism.cs" />
     <Compile Include="Multiplication.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Reverse_int.cs" />
     <Compile Include="String.cs" />
     <Compile Include="String_Interpolation.cs" />
     <Compile Include="Diamond.cs" />
